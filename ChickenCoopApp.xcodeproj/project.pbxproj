@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3F4E501FB185EE00B810CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E4F1FB185EE00B810CF /* AppDelegate.swift */; };
+		AC3F4E521FB185EE00B810CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E511FB185EE00B810CF /* ViewController.swift */; };
+		AC3F4E551FB185EE00B810CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F4E531FB185EE00B810CF /* Main.storyboard */; };
+		AC3F4E581FB185EE00B810CF /* ChickenCoopApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E561FB185EE00B810CF /* ChickenCoopApp.xcdatamodeld */; };
+		AC3F4E5A1FB185EE00B810CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F4E591FB185EE00B810CF /* Assets.xcassets */; };
+		AC3F4E5D1FB185EE00B810CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F4E5B1FB185EE00B810CF /* LaunchScreen.storyboard */; };
+		AC3F4E681FB185EF00B810CF /* ChickenCoopAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E671FB185EF00B810CF /* ChickenCoopAppTests.swift */; };
+		AC3F4E731FB185EF00B810CF /* ChickenCoopAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E721FB185EF00B810CF /* ChickenCoopAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC3F4E641FB185EF00B810CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3F4E441FB185ED00B810CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3F4E4B1FB185EE00B810CF;
+			remoteInfo = ChickenCoopApp;
+		};
+		AC3F4E6F1FB185EF00B810CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3F4E441FB185ED00B810CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3F4E4B1FB185EE00B810CF;
+			remoteInfo = ChickenCoopApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC3F4E4C1FB185EE00B810CF /* ChickenCoopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChickenCoopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3F4E4F1FB185EE00B810CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC3F4E511FB185EE00B810CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC3F4E541FB185EE00B810CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC3F4E571FB185EE00B810CF /* ChickenCoopApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChickenCoopApp.xcdatamodel; sourceTree = "<group>"; };
+		AC3F4E591FB185EE00B810CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC3F4E5C1FB185EE00B810CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC3F4E5E1FB185EE00B810CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3F4E631FB185EF00B810CF /* ChickenCoopAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChickenCoopAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3F4E671FB185EF00B810CF /* ChickenCoopAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCoopAppTests.swift; sourceTree = "<group>"; };
+		AC3F4E691FB185EF00B810CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3F4E6E1FB185EF00B810CF /* ChickenCoopAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChickenCoopAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3F4E721FB185EF00B810CF /* ChickenCoopAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCoopAppUITests.swift; sourceTree = "<group>"; };
+		AC3F4E741FB185EF00B810CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3F4E491FB185EE00B810CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F4E601FB185EF00B810CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F4E6B1FB185EF00B810CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3F4E431FB185ED00B810CF = {
+			isa = PBXGroup;
+			children = (
+				AC3F4E4E1FB185EE00B810CF /* ChickenCoopApp */,
+				AC3F4E661FB185EF00B810CF /* ChickenCoopAppTests */,
+				AC3F4E711FB185EF00B810CF /* ChickenCoopAppUITests */,
+				AC3F4E4D1FB185EE00B810CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3F4E4D1FB185EE00B810CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F4E4C1FB185EE00B810CF /* ChickenCoopApp.app */,
+				AC3F4E631FB185EF00B810CF /* ChickenCoopAppTests.xctest */,
+				AC3F4E6E1FB185EF00B810CF /* ChickenCoopAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3F4E4E1FB185EE00B810CF /* ChickenCoopApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F4E4F1FB185EE00B810CF /* AppDelegate.swift */,
+				AC3F4E511FB185EE00B810CF /* ViewController.swift */,
+				AC3F4E531FB185EE00B810CF /* Main.storyboard */,
+				AC3F4E591FB185EE00B810CF /* Assets.xcassets */,
+				AC3F4E5B1FB185EE00B810CF /* LaunchScreen.storyboard */,
+				AC3F4E5E1FB185EE00B810CF /* Info.plist */,
+				AC3F4E561FB185EE00B810CF /* ChickenCoopApp.xcdatamodeld */,
+			);
+			path = ChickenCoopApp;
+			sourceTree = "<group>";
+		};
+		AC3F4E661FB185EF00B810CF /* ChickenCoopAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F4E671FB185EF00B810CF /* ChickenCoopAppTests.swift */,
+				AC3F4E691FB185EF00B810CF /* Info.plist */,
+			);
+			path = ChickenCoopAppTests;
+			sourceTree = "<group>";
+		};
+		AC3F4E711FB185EF00B810CF /* ChickenCoopAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F4E721FB185EF00B810CF /* ChickenCoopAppUITests.swift */,
+				AC3F4E741FB185EF00B810CF /* Info.plist */,
+			);
+			path = ChickenCoopAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3F4E4B1FB185EE00B810CF /* ChickenCoopApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3F4E771FB185EF00B810CF /* Build configuration list for PBXNativeTarget "ChickenCoopApp" */;
+			buildPhases = (
+				AC3F4E481FB185EE00B810CF /* Sources */,
+				AC3F4E491FB185EE00B810CF /* Frameworks */,
+				AC3F4E4A1FB185EE00B810CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChickenCoopApp;
+			productName = ChickenCoopApp;
+			productReference = AC3F4E4C1FB185EE00B810CF /* ChickenCoopApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC3F4E621FB185EF00B810CF /* ChickenCoopAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3F4E7A1FB185EF00B810CF /* Build configuration list for PBXNativeTarget "ChickenCoopAppTests" */;
+			buildPhases = (
+				AC3F4E5F1FB185EF00B810CF /* Sources */,
+				AC3F4E601FB185EF00B810CF /* Frameworks */,
+				AC3F4E611FB185EF00B810CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3F4E651FB185EF00B810CF /* PBXTargetDependency */,
+			);
+			name = ChickenCoopAppTests;
+			productName = ChickenCoopAppTests;
+			productReference = AC3F4E631FB185EF00B810CF /* ChickenCoopAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC3F4E6D1FB185EF00B810CF /* ChickenCoopAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3F4E7D1FB185EF00B810CF /* Build configuration list for PBXNativeTarget "ChickenCoopAppUITests" */;
+			buildPhases = (
+				AC3F4E6A1FB185EF00B810CF /* Sources */,
+				AC3F4E6B1FB185EF00B810CF /* Frameworks */,
+				AC3F4E6C1FB185EF00B810CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3F4E701FB185EF00B810CF /* PBXTargetDependency */,
+			);
+			name = ChickenCoopAppUITests;
+			productName = ChickenCoopAppUITests;
+			productReference = AC3F4E6E1FB185EF00B810CF /* ChickenCoopAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3F4E441FB185ED00B810CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Quinton Quaye";
+				TargetAttributes = {
+					AC3F4E4B1FB185EE00B810CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC3F4E621FB185EF00B810CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC3F4E4B1FB185EE00B810CF;
+					};
+					AC3F4E6D1FB185EF00B810CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC3F4E4B1FB185EE00B810CF;
+					};
+				};
+			};
+			buildConfigurationList = AC3F4E471FB185ED00B810CF /* Build configuration list for PBXProject "ChickenCoopApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3F4E431FB185ED00B810CF;
+			productRefGroup = AC3F4E4D1FB185EE00B810CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3F4E4B1FB185EE00B810CF /* ChickenCoopApp */,
+				AC3F4E621FB185EF00B810CF /* ChickenCoopAppTests */,
+				AC3F4E6D1FB185EF00B810CF /* ChickenCoopAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3F4E4A1FB185EE00B810CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3F4E5D1FB185EE00B810CF /* LaunchScreen.storyboard in Resources */,
+				AC3F4E5A1FB185EE00B810CF /* Assets.xcassets in Resources */,
+				AC3F4E551FB185EE00B810CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F4E611FB185EF00B810CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F4E6C1FB185EF00B810CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3F4E481FB185EE00B810CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3F4E521FB185EE00B810CF /* ViewController.swift in Sources */,
+				AC3F4E581FB185EE00B810CF /* ChickenCoopApp.xcdatamodeld in Sources */,
+				AC3F4E501FB185EE00B810CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F4E5F1FB185EF00B810CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3F4E681FB185EF00B810CF /* ChickenCoopAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3F4E6A1FB185EF00B810CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3F4E731FB185EF00B810CF /* ChickenCoopAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC3F4E651FB185EF00B810CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3F4E4B1FB185EE00B810CF /* ChickenCoopApp */;
+			targetProxy = AC3F4E641FB185EF00B810CF /* PBXContainerItemProxy */;
+		};
+		AC3F4E701FB185EF00B810CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3F4E4B1FB185EE00B810CF /* ChickenCoopApp */;
+			targetProxy = AC3F4E6F1FB185EF00B810CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC3F4E531FB185EE00B810CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3F4E541FB185EE00B810CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC3F4E5B1FB185EE00B810CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3F4E5C1FB185EE00B810CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC3F4E751FB185EF00B810CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3F4E761FB185EF00B810CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3F4E781FB185EF00B810CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = ChickenCoopApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.ChickenCoopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3F4E791FB185EF00B810CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = ChickenCoopApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.ChickenCoopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC3F4E7B1FB185EF00B810CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = ChickenCoopAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.ChickenCoopAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickenCoopApp.app/ChickenCoopApp";
+			};
+			name = Debug;
+		};
+		AC3F4E7C1FB185EF00B810CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = ChickenCoopAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.ChickenCoopAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickenCoopApp.app/ChickenCoopApp";
+			};
+			name = Release;
+		};
+		AC3F4E7E1FB185EF00B810CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = ChickenCoopAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.ChickenCoopAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChickenCoopApp;
+			};
+			name = Debug;
+		};
+		AC3F4E7F1FB185EF00B810CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = ChickenCoopAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.ChickenCoopAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChickenCoopApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3F4E471FB185ED00B810CF /* Build configuration list for PBXProject "ChickenCoopApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3F4E751FB185EF00B810CF /* Debug */,
+				AC3F4E761FB185EF00B810CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3F4E771FB185EF00B810CF /* Build configuration list for PBXNativeTarget "ChickenCoopApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3F4E781FB185EF00B810CF /* Debug */,
+				AC3F4E791FB185EF00B810CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3F4E7A1FB185EF00B810CF /* Build configuration list for PBXNativeTarget "ChickenCoopAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3F4E7B1FB185EF00B810CF /* Debug */,
+				AC3F4E7C1FB185EF00B810CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3F4E7D1FB185EF00B810CF /* Build configuration list for PBXNativeTarget "ChickenCoopAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3F4E7E1FB185EF00B810CF /* Debug */,
+				AC3F4E7F1FB185EF00B810CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC3F4E561FB185EE00B810CF /* ChickenCoopApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC3F4E571FB185EE00B810CF /* ChickenCoopApp.xcdatamodel */,
+			);
+			currentVersion = AC3F4E571FB185EE00B810CF /* ChickenCoopApp.xcdatamodel */;
+			path = ChickenCoopApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC3F4E441FB185ED00B810CF /* Project object */;
+}
