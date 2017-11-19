@@ -7,3 +7,13 @@
 //
 
 import Foundation
+struct FoodMenu {
+    var categoryName = ""
+    var categoryImage = ""
+    
+    init(categoryName: String, categoryImage: String){
+        self.categoryName = categoryName
+        self.categoryImage = categoryImage
+        
+    }
+}

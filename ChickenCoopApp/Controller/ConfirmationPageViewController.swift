@@ -9,10 +9,16 @@
 import UIKit
 
 class ConfirmationPageViewController: UIViewController {
+    
+    @IBOutlet weak var finalNoticeLabel: UILabel!
+    
+   var finalText = ""
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        finalNoticeLabel.text = finalText
         // Do any additional setup after loading the view.
     }
 
@@ -20,6 +26,16 @@ class ConfirmationPageViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func mainMenuBtn(_ sender: Any) {
+        performSegue(withIdentifier: "ShowMainMenuSegue", sender: self)
+        
+    }
+    
+    
+    
+    
     
 
     /*

@@ -11,15 +11,19 @@ import UIKit
 
 
 class MenuCollectionViewController: UICollectionViewController {
-
+    
+var menu = MenuData()
+    
+    
     // items...
     
-    var menuNames = ["Main Menu", "Specials", "Menu","Catering", "About Us", "Franchising", "Contact Us" ]
+    /*var menuNames = ["Main Menu", "Specials", "Menu","Catering", "About Us", "Franchising", "Contact Us" ]
     var menuImages = ["Mainmenu", "specials", "Menu","", "", "", "" ]
     
+    */
     
     
-    
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -70,24 +74,31 @@ class MenuCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 7
+        return 6
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as!
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as?
         MenuCollectionViewCell
     
         // Configure the cell
-        cell.menuItemImage.image = UIImage(named: menuImages[indexPath.row])
-        cell.menuItemTitle.text = menuNames[indexPath.row]
+        let data = menu.mainMenuItems[indexPath.row]
         
-        return cell
+        cell?.getMenu(menu: data)
+        
+        return cell!
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let 
-        if segue.identifier == "ShowSpecialsSegue" {
+        
+        switch menu.mainMenuItems[indexPath.row].menuItemTitle{
+        case "Specials":
             performSegue(withIdentifier: "ShowSpecialsSegue" , sender: self)
+        case "Menu":
+            performSegue(withIdentifier: "ShowFoodCategoriesSegue" , sender: self)
+
+        default:
+            return
         }
     }
 

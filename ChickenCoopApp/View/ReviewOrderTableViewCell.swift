@@ -10,15 +10,20 @@ import UIKit
 
 class ReviewOrderTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var productLabel: UILabel!
+    
+    @IBOutlet weak var priceLabel: UILabel!
+    
+    @IBOutlet weak var qtyLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func getOrder(order: Food){
+        self.productLabel.text = order.product
+        self.priceLabel.text = "\(order.price)"
+        self.qtyLabel.text = "\(order.qty)"
     }
-
 }

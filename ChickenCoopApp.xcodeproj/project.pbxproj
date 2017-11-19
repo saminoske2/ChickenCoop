@@ -15,6 +15,24 @@
 		AC3F4E5D1FB185EE00B810CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F4E5B1FB185EE00B810CF /* LaunchScreen.storyboard */; };
 		AC3F4E681FB185EF00B810CF /* ChickenCoopAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E671FB185EF00B810CF /* ChickenCoopAppTests.swift */; };
 		AC3F4E731FB185EF00B810CF /* ChickenCoopAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E721FB185EF00B810CF /* ChickenCoopAppUITests.swift */; };
+		AC3F4E831FB193A500B810CF /* LogoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E821FB193A500B810CF /* LogoNavigationController.swift */; };
+		AC3F4E851FB19A2100B810CF /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E841FB19A2100B810CF /* MenuCollectionViewController.swift */; };
+		AC3F4E871FB19CA700B810CF /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E861FB19CA700B810CF /* MenuCollectionViewCell.swift */; };
+		AC3F4E891FB1A1A500B810CF /* SpecialsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E881FB1A1A500B810CF /* SpecialsTableViewController.swift */; };
+		AC3F4E8D1FB1A1FF00B810CF /* SpecialsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E8C1FB1A1FF00B810CF /* SpecialsTableViewCell.swift */; };
+		AC3F4E921FB1A94700B810CF /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E911FB1A94700B810CF /* MainMenu.swift */; };
+		AC3F4E971FB1B00100B810CF /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E961FB1B00100B810CF /* MenuData.swift */; };
+		AC3F4E991FB1B99C00B810CF /* FoodMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E981FB1B99C00B810CF /* FoodMenu.swift */; };
+		AC3F4E9B1FB1BAE000B810CF /* foodCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E9A1FB1BAE000B810CF /* foodCategoryTableViewCell.swift */; };
+		AC3F4E9D1FB1BCCE00B810CF /* FoodCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E9C1FB1BCCE00B810CF /* FoodCategoryTableViewController.swift */; };
+		AC3F4E9F1FB242D400B810CF /* FoodListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4E9E1FB242D400B810CF /* FoodListTableViewController.swift */; };
+		AC3F4EA11FB2432A00B810CF /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4EA01FB2432A00B810CF /* FoodTableViewCell.swift */; };
+		AC3F4EA31FB244A900B810CF /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4EA21FB244A900B810CF /* Food.swift */; };
+		AC3F4EA51FB2560700B810CF /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4EA41FB2560700B810CF /* FoodListViewController.swift */; };
+		AC3F4EA71FB2650300B810CF /* ReviewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4EA61FB2650300B810CF /* ReviewOrderViewController.swift */; };
+		AC3F4EA91FB2651A00B810CF /* ReviewOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4EA81FB2651A00B810CF /* ReviewOrderTableViewCell.swift */; };
+		AC3F4EAB1FB265A700B810CF /* ReviewOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4EAA1FB265A700B810CF /* ReviewOrder.swift */; };
+		AC3F4EAD1FB2A46E00B810CF /* ConfirmationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F4EAC1FB2A46E00B810CF /* ConfirmationPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		AC3F4E6E1FB185EF00B810CF /* ChickenCoopAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChickenCoopAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3F4E721FB185EF00B810CF /* ChickenCoopAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCoopAppUITests.swift; sourceTree = "<group>"; };
 		AC3F4E741FB185EF00B810CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3F4E821FB193A500B810CF /* LogoNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoNavigationController.swift; sourceTree = "<group>"; };
+		AC3F4E841FB19A2100B810CF /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewController.swift; sourceTree = "<group>"; };
+		AC3F4E861FB19CA700B810CF /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC3F4E881FB1A1A500B810CF /* SpecialsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsTableViewController.swift; sourceTree = "<group>"; };
+		AC3F4E8C1FB1A1FF00B810CF /* SpecialsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsTableViewCell.swift; sourceTree = "<group>"; };
+		AC3F4E911FB1A94700B810CF /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		AC3F4E961FB1B00100B810CF /* MenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
+		AC3F4E981FB1B99C00B810CF /* FoodMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenu.swift; sourceTree = "<group>"; };
+		AC3F4E9A1FB1BAE000B810CF /* foodCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		AC3F4E9C1FB1BCCE00B810CF /* FoodCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategoryTableViewController.swift; sourceTree = "<group>"; };
+		AC3F4E9E1FB242D400B810CF /* FoodListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableViewController.swift; sourceTree = "<group>"; };
+		AC3F4EA01FB2432A00B810CF /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		AC3F4EA21FB244A900B810CF /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		AC3F4EA41FB2560700B810CF /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
+		AC3F4EA61FB2650300B810CF /* ReviewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewOrderViewController.swift; sourceTree = "<group>"; };
+		AC3F4EA81FB2651A00B810CF /* ReviewOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewOrderTableViewCell.swift; sourceTree = "<group>"; };
+		AC3F4EAA1FB265A700B810CF /* ReviewOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewOrder.swift; sourceTree = "<group>"; };
+		AC3F4EAC1FB2A46E00B810CF /* ConfirmationPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +135,11 @@
 		AC3F4E4E1FB185EE00B810CF /* ChickenCoopApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC3F4E931FB1AFC000B810CF /* ServerInfo */,
+				AC3F4E901FB1A90300B810CF /* Controller */,
+				AC3F4E8F1FB1A8FD00B810CF /* View */,
+				AC3F4E8E1FB1A8F600B810CF /* Model */,
 				AC3F4E4F1FB185EE00B810CF /* AppDelegate.swift */,
-				AC3F4E511FB185EE00B810CF /* ViewController.swift */,
 				AC3F4E531FB185EE00B810CF /* Main.storyboard */,
 				AC3F4E591FB185EE00B810CF /* Assets.xcassets */,
 				AC3F4E5B1FB185EE00B810CF /* LaunchScreen.storyboard */,
@@ -126,6 +165,53 @@
 				AC3F4E741FB185EF00B810CF /* Info.plist */,
 			);
 			path = ChickenCoopAppUITests;
+			sourceTree = "<group>";
+		};
+		AC3F4E8E1FB1A8F600B810CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F4E911FB1A94700B810CF /* MainMenu.swift */,
+				AC3F4E981FB1B99C00B810CF /* FoodMenu.swift */,
+				AC3F4EA21FB244A900B810CF /* Food.swift */,
+				AC3F4EAA1FB265A700B810CF /* ReviewOrder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC3F4E8F1FB1A8FD00B810CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F4E8C1FB1A1FF00B810CF /* SpecialsTableViewCell.swift */,
+				AC3F4E861FB19CA700B810CF /* MenuCollectionViewCell.swift */,
+				AC3F4E9A1FB1BAE000B810CF /* foodCategoryTableViewCell.swift */,
+				AC3F4EA01FB2432A00B810CF /* FoodTableViewCell.swift */,
+				AC3F4EA81FB2651A00B810CF /* ReviewOrderTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC3F4E901FB1A90300B810CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F4E511FB185EE00B810CF /* ViewController.swift */,
+				AC3F4E881FB1A1A500B810CF /* SpecialsTableViewController.swift */,
+				AC3F4E841FB19A2100B810CF /* MenuCollectionViewController.swift */,
+				AC3F4E821FB193A500B810CF /* LogoNavigationController.swift */,
+				AC3F4E9C1FB1BCCE00B810CF /* FoodCategoryTableViewController.swift */,
+				AC3F4E9E1FB242D400B810CF /* FoodListTableViewController.swift */,
+				AC3F4EA41FB2560700B810CF /* FoodListViewController.swift */,
+				AC3F4EA61FB2650300B810CF /* ReviewOrderViewController.swift */,
+				AC3F4EAC1FB2A46E00B810CF /* ConfirmationPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC3F4E931FB1AFC000B810CF /* ServerInfo */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F4E961FB1B00100B810CF /* MenuData.swift */,
+			);
+			path = ServerInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +349,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3F4E521FB185EE00B810CF /* ViewController.swift in Sources */,
+				AC3F4E831FB193A500B810CF /* LogoNavigationController.swift in Sources */,
+				AC3F4EA11FB2432A00B810CF /* FoodTableViewCell.swift in Sources */,
+				AC3F4E9D1FB1BCCE00B810CF /* FoodCategoryTableViewController.swift in Sources */,
+				AC3F4E971FB1B00100B810CF /* MenuData.swift in Sources */,
+				AC3F4E9B1FB1BAE000B810CF /* foodCategoryTableViewCell.swift in Sources */,
+				AC3F4EAB1FB265A700B810CF /* ReviewOrder.swift in Sources */,
+				AC3F4E9F1FB242D400B810CF /* FoodListTableViewController.swift in Sources */,
+				AC3F4E891FB1A1A500B810CF /* SpecialsTableViewController.swift in Sources */,
 				AC3F4E581FB185EE00B810CF /* ChickenCoopApp.xcdatamodeld in Sources */,
+				AC3F4EA91FB2651A00B810CF /* ReviewOrderTableViewCell.swift in Sources */,
+				AC3F4EA71FB2650300B810CF /* ReviewOrderViewController.swift in Sources */,
 				AC3F4E501FB185EE00B810CF /* AppDelegate.swift in Sources */,
+				AC3F4E8D1FB1A1FF00B810CF /* SpecialsTableViewCell.swift in Sources */,
+				AC3F4E991FB1B99C00B810CF /* FoodMenu.swift in Sources */,
+				AC3F4E921FB1A94700B810CF /* MainMenu.swift in Sources */,
+				AC3F4EA31FB244A900B810CF /* Food.swift in Sources */,
+				AC3F4EA51FB2560700B810CF /* FoodListViewController.swift in Sources */,
+				AC3F4E851FB19A2100B810CF /* MenuCollectionViewController.swift in Sources */,
+				AC3F4E871FB19CA700B810CF /* MenuCollectionViewCell.swift in Sources */,
+				AC3F4EAD1FB2A46E00B810CF /* ConfirmationPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +537,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
 				INFOPLIST_FILE = ChickenCoopApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = theQ.ChickenCoopApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,11 +553,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
 				INFOPLIST_FILE = ChickenCoopApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = theQ.ChickenCoopApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

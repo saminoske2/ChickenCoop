@@ -10,6 +10,9 @@ import UIKit
 
 class FoodListTableViewController: UITableViewController {
 
+    var data: MenuData!
+    var food: [Food] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,23 +32,34 @@ class FoodListTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return food.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as?
+            FoodTableViewCell
 
         // Configure the cell...
 
-        return cell
+        let appetizerItems = data.appetizers[indexPath.row]
+        let chickenItems = data.chicken[indexPath.row]
+        let seafoodItems = data.Seafood[indexPath.row]
+        let kidAndSeniorItems = data.kidsAndSeiniors[indexPath.row]
+        let sideAndDessertItems = data.sidesAndDesserts[indexPath.row]
+        let drinkItems = data.drinks[indexPath.row]
+        
+        let foodItems = food[indexPath.row]
+        
+        cell?.getFood(food: foodItems)
+        return cell!
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

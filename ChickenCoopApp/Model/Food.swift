@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+struct Food {
+    var product = ""
+    var price = 0.00
+    var qty = 0
+   
+    
+    init(product:String, price: Int, qty: Int){
+        self.product = product
+        self.price = Double(price)
+        self.qty = qty
+        
+        
+    }
+}

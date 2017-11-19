@@ -10,6 +10,8 @@ import UIKit
 
 class FoodCategoryTableViewController: UITableViewController {
 
+    var data = MenuData()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,23 +31,27 @@ class FoodCategoryTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return data.FoodMenuItems.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)as?
+        foodCategoryTableViewCell
 
+        let category = data.FoodMenuItems[indexPath.row]
         // Configure the cell...
 
-        return cell
+        cell?.getCategories(category: category)
+        
+        return cell!
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -82,14 +88,45 @@ class FoodCategoryTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowProductsSegue"{
+            if let indexPath = tableView.indexPathForSelectedRow{
+                let destinationController = segue.destination as!
+                FoodListViewController
+                
+                switch data.FoodMenuItems[indexPath.row].categoryName{
+                case "Appetizers" :
+                    destinationController.food = data.appetizers
+                    destinationController.category = data.FoodMenuItems[indexPath.row].categoryName
+                    case "Chicken" :
+                    destinationController.food = data.chicken
+                    destinationController.category = data.FoodMenuItems[indexPath.row].categoryName
+                    case "Seafood" :
+                    destinationController.food = data.Seafood
+                    destinationController.category = data.FoodMenuItems[indexPath.row].categoryName
+                    case "Kids&Seniors" :
+                    destinationController.food = data.kidsAndSeiniors
+                    destinationController.category = data.FoodMenuItems[indexPath.row].categoryName
+                    case "Sides&Desserts" :
+                    destinationController.food = data.sidesAndDesserts
+                    destinationController.category = data.FoodMenuItems[indexPath.row].categoryName
+                    case "Drinks" :
+                    destinationController.food = data.drinks
+                    destinationController.category = data.FoodMenuItems[indexPath.row].categoryName
+                default:
+                    return
+                    destinationController.food = data.drinks
+                }
+                
+            }
+        }
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }

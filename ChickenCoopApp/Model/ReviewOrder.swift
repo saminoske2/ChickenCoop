@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+struct ReviewOrder {
+    var product = ""
+    var price = 0.00
+    var qty = ""
+    
+    init(product:String, price: Int, qty: String ){
+        self.product = product
+        self.price = Double(price)
+        self.qty = qty
+        
+    }
+}

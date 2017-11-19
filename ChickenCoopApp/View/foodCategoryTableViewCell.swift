@@ -9,16 +9,22 @@
 import UIKit
 
 class foodCategoryTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var foodCategoryImage: UIImageView!
+    
+    
+    @IBOutlet weak var foodCategoryName: UILabel!
+    
+    func getCategories(category: FoodMenu){
+        self.foodCategoryName.text = category.categoryName
+        self.foodCategoryImage.image = UIImage(named: category.categoryImage)
+    }
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    
 
 }

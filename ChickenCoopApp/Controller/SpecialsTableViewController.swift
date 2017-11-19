@@ -10,7 +10,7 @@ import UIKit
 
 class SpecialsTableViewController: UITableViewController {
     
-    var specialImages = ["Ad 5", "Ad 6", "Ad 4", "Ad 2", "Ad 3", "Ad 1", "Ad 7"]
+    var specialImages = ["Ad 5", "Ad 6", "Ad 4", "Ad 2", "Ad 3", "Ad 7"]
     
     
 
